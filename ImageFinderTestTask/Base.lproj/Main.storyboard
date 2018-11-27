@@ -27,10 +27,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZb-m4-Yj1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZb-m4-Yj1">
                                 <rect key="frame" x="150" y="356" width="75" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0xl-XU-glu"/>
+                                    <constraint firstAttribute="width" constant="75" id="mM9-cI-7fH"/>
+                                </constraints>
                                 <state key="normal" title="Search">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -49,10 +52,14 @@
                             <constraint firstItem="236-qn-p0P" firstAttribute="trailing" secondItem="hod-lY-U92" secondAttribute="trailing" constant="16" id="8ZF-xe-rhf"/>
                             <constraint firstItem="236-qn-p0P" firstAttribute="trailing" secondItem="aqZ-3L-Anp" secondAttribute="trailing" constant="16" id="9OE-tx-xog"/>
                             <constraint firstItem="aqZ-3L-Anp" firstAttribute="leading" secondItem="236-qn-p0P" secondAttribute="leading" constant="16" id="C9C-Mr-ZEr"/>
+                            <constraint firstItem="fZb-m4-Yj1" firstAttribute="top" secondItem="aqZ-3L-Anp" secondAttribute="bottom" constant="8" id="CiR-fT-1o6"/>
                             <constraint firstItem="aqZ-3L-Anp" firstAttribute="centerY" secondItem="15L-YZ-Xva" secondAttribute="centerY" id="CkH-oT-EXH"/>
                             <constraint firstItem="hod-lY-U92" firstAttribute="leading" secondItem="236-qn-p0P" secondAttribute="leading" constant="16" id="Fi5-43-o8u"/>
                             <constraint firstItem="aqZ-3L-Anp" firstAttribute="top" secondItem="hod-lY-U92" secondAttribute="bottom" constant="8" id="Hm0-IF-IdR"/>
+                            <constraint firstItem="fZb-m4-Yj1" firstAttribute="centerX" secondItem="15L-YZ-Xva" secondAttribute="centerX" id="NDj-JS-Pd5"/>
                             <constraint firstItem="aqZ-3L-Anp" firstAttribute="centerX" secondItem="15L-YZ-Xva" secondAttribute="centerX" id="Paq-AN-VKc"/>
+                            <constraint firstItem="fZb-m4-Yj1" firstAttribute="leading" secondItem="236-qn-p0P" secondAttribute="leading" constant="150" id="nqH-jE-ajc"/>
+                            <constraint firstItem="236-qn-p0P" firstAttribute="trailing" secondItem="fZb-m4-Yj1" secondAttribute="trailing" constant="150" id="xE4-Uh-H9n"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="236-qn-p0P"/>
                     </view>

@@ -75,17 +75,33 @@
 		1712B8C521AC71F200C1FC81 /* ImageFinderTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				1712B8DA21AD700000C1FC81 /* SearchVC.swift */,
-				1712B8DC21AD760300C1FC81 /* DataJson.swift */,
-				1712B8C821AC71F200C1FC81 /* CollectionVC.swift */,
-				1712B8D821AC734A00C1FC81 /* CollectionViewCell.swift */,
-				1712B8C621AC71F200C1FC81 /* AppDelegate.swift */,
+				17BF286B21ADC96600EE8B0F /* Controllers */,
+				17BF286C21ADC9A300EE8B0F /* Model */,
 				1712B8CA21AC71F200C1FC81 /* Main.storyboard */,
-				1712B8CD21AC71F800C1FC81 /* Assets.xcassets */,
 				1712B8CF21AC71F800C1FC81 /* LaunchScreen.storyboard */,
+				1712B8CD21AC71F800C1FC81 /* Assets.xcassets */,
 				1712B8D221AC71F800C1FC81 /* Info.plist */,
 			);
 			path = ImageFinderTestTask;
+			sourceTree = "<group>";
+		};
+		17BF286B21ADC96600EE8B0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1712B8C821AC71F200C1FC81 /* CollectionVC.swift */,
+				1712B8DA21AD700000C1FC81 /* SearchVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		17BF286C21ADC9A300EE8B0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1712B8DC21AD760300C1FC81 /* DataJson.swift */,
+				1712B8D821AC734A00C1FC81 /* CollectionViewCell.swift */,
+				1712B8C621AC71F200C1FC81 /* AppDelegate.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F28093706CAFBEE96B9051F2 /* Pods */ = {
